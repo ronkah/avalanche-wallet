@@ -43,7 +43,7 @@ jobs:
                   USE_HTTP: true
               with:
                   start: yarn serve --mode e2e
-                  wait-on: 'http://localhost:5000/'
+                  wait-on: 'http://localhost:9000/'
                   # wait for 3 minutes for the server to respond
                   wait-on-timeout: 180
                   browser: chrome
